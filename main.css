@@ -1,0 +1,153 @@
+body{
+    font-family: Helvetica;
+  }  
+  header{
+    text-align: center;
+    font-size: smaller;
+    font-size: 20px;
+    color:white;
+    margin-top: -10px; 
+    padding-top: 50px; 
+    padding-bottom: 200px;
+    background-image: url(panorama.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+a {
+    color: lightseagreen; 
+  } 
+a:hover{
+    color:darkcyan;
+}
+nav {
+    margin-top: -100px; 
+    padding-top: 20px; 
+}
+nav a{
+    color:brown;
+    font-weight: bold;
+}
+nav a:visited{
+    color:darkgoldenrod;
+}
+nav a:hover{
+    color:orange;
+}
+#main-heading{
+    text-align: center;
+    color:#FFFFFF;
+    text-transform: capitalize;
+    background-image: url("123.png");
+    padding: 30px;
+    font-size: 40px;
+    margin-top: -50px;
+}
+
+#requirements {
+    padding: 30px;
+    margin-left:65%;
+    color:white;
+    background-color: darkred;
+    height: max-content;
+    font-size: smaller;
+}
+#task{
+    float: left;
+    padding: 30px;
+    width: 60%;
+    background-color: #f1f1f1;
+    height: 200px;
+}
+#submission{
+    float:left;
+    padding: 30px;
+    width: 60%;
+    height: max-content;
+    margin-top: -350px;
+}
+#profile-image{
+    float:left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+#grading {
+    padding: 30px;
+    margin-left:65%;
+    color:white;
+    background-color: darkgoldenrod;
+    height: max-content;
+    font-size: smaller;
+}
+table{
+    width: 100%;
+    margin:auto;
+    padding-top: 5%;
+    color:#111111;
+}
+thead{
+    background-color: aqua;
+}
+tbody{
+    background-color: #f1f1f1;
+}
+tr{
+    border-bottom: 1px solid #dddddd;
+}
+td{
+    padding: 10px;
+    text-align: left;
+}
+#deadline{
+    color:darkred;
+    float: left;
+    padding: 30px;
+    width: 60%;
+    background-color: #f1f1f1;
+    height: fit-content;
+    margin-top: -280px;
+}
+#article-1{
+   padding: 20px;
+   padding-bottom: 30px; 
+}
+#categories h4{
+    color: white;
+}
+#categories li a {
+    color: gold;
+    text-decoration: none;
+  }
+#categories li a:visited {
+    color: darkgoldenrod;
+  }
+#categories li a:hover {
+    color: red;
+  }
+#categories li a:active {
+    color: orange;
+  }
+#quick_links h4{
+    color: white;
+}
+#quick_links li a {
+    color: gold;
+    text-decoration: none;
+  }
+#quick_links li a:visited {
+    color: darkgoldenrod;
+  }
+#quick_links li a:hover {
+    color: red;
+  }
+#quick_links li a:active {
+    color: orange;
+  }
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #08193E;
+    padding: 20px;
+    padding-right: 60px;
+    color: white;
+}

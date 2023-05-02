@@ -1,0 +1,77 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* Global Styles */
+body {
+font-family: Helvetica, sans-serif, sans-serif, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+color: white;
+background-color: #000000;
+}
+
+header {
+background-color: #000000;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+padding: 1rem;
+}
+
+main {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 3rem;
+}
+
+.background {
+background-image: url("NU-photo.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.background h1 {
+font-size: 3rem;
+margin-bottom: 2rem;
+}
+
+.education,
+.childhood {
+width: 80%;
+margin-bottom: 3rem;
+}
+
+.education h2,
+.childhood h2 {
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+
+.education p,
+.childhood p {
+font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+.background h1 {
+font-size: 2rem;
+}
+
+.education,
+.childhood {
+width: 90%;
+}
+
+.education h2,
+.childhood h2 {
+font-size: 1.5rem;
+}
+}
